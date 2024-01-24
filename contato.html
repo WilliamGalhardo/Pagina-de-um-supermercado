@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="shortcut icon" href="novas/logoA.png">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Social Midia CSS !-->
+   <link href="fwa/css/all.css" rel="stylesheet">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+
+   <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+   <title>Super Mercado Ipiranga</title>
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-ipiranga">
+
+         <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+               <img class="mr-3" src="novas/logoA.png" width="125" height="125" alt="Logo Ipiranga">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav mr-auto mr-3">
+                  <li class="nav-item">
+                     <a class="nav-link stylelink" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link stylelink" href="sobre.html">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link stylelink" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link stylelink ativado" href="contato.html">Contato
+                        <span class="sr-only">(current)</span>
+                     </a>
+                  </li>
+               </ul>
+
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <main>
+ 
+      <div class="container contact-form contatocontainer">
+         <form method="post" class="center">
+            <h2 class="bg-ipiranga rounded text-white">Fale conosco</h2>
+            <div class="row">
+
+               <div class="col-md-6">
+                  
+                  <div class="form-group">
+                     <select class="custom-select mb-3 bcontato">
+                  <option selected>Selecione uma Loja</option>
+                  <option value="1">Loja 1</option>
+                  <option value="2">Loja 2</option>
+                  </select>
+                     <select class="custom-select mb-3 bcontato">
+                  <option selected>Assunto</option>
+                  <option value="1">Vaga de emprego</option>
+                  <option value="2">Reclamação</option>
+                  <option value="3">Elogio</option>
+                  <option value="4">Comentário</option>
+                  <option value="5">Sujestão</option>
+                  <option value="6">Outro</option>
+                  </select>
+                     <input type="text" name="txtName" class="form-control bcontato" placeholder="Seu nome" value="" />
+                  </div>
+                  <div class="form-group">
+                     <input type="text" name="txtEmail" class="form-control bcontato" placeholder="Seu e-mail" value="" />
+                  </div>
+                  <div class="form-group">
+                     <input type="text" name="txtPhone" class="form-control bcontato" placeholder="Telefone ou Celular" value="" />
+                  </div>
+                   <div class="form-group mt-4 d-flex align-content-center justify-content-center">
+                     <input type="submit" name="btnSubmit" class="btnContacto btn bg-ipiranga d-none d-md-block" value="Enviar" />
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="form-group">
+                     <textarea name="txtMsg" class="form-control bcontato" placeholder="Sua Mensagem" style="width: 100%; height: 100px;"></textarea>
+                  </div>
+                  <div class="form-group mt-4 d-flex align-content-center justify-content-center">
+                     <input type="submit" name="btnSubmit" class="btnContacto btn bg-ipiranga d-md-none" value="Enviar" />
+                  </div>
+            <div class="col pb-3 badge bg-ipiranga">
+                  <p class="text-center mt-2">Redes Sociais</p>
+                  <a href=><i class="cfb fb fab fa-facebook"></i></a>
+                  <a href=><i class="cig ig fab fa-instagram"></i></a>
+                  <a href=><i class="cwp wp fab fa-whatsapp"></i></a>
+            </div>
+               </div>
+            </div>
+         </form>
+      </div>
+
+   </main>
+
+  <footer class="footer-bs bg-ipirangaf">
+      <div class="row">
+         <div class="col-md-3 footer-brand animated fadeInLeft">
+            <img class="ml-2 mt-md-1" src="novas/logoA.png" width="125" height="140" alt="Logo Ipiranga">
+            <p></p>
+            <p class="text-white">© 2022 Super Mercado A 
+               <br>
+               Feito por:
+               <br>
+
+               RGM: 29751161	| Gabriel Chaves Medeiro
+               RGM: 29678056	| Guilherme Koga Pereira
+               RGM: 29987451	| Vitor Suave Rodrigues
+               RGM: 29381959	| William Ferreira Galhardo
+               RGM: 30115299  | Leonardo Viana da Silva
+            </p>
+         </div>
+         <div class="col-md-4 footer-nav animated fadeInUp ml-4">
+            <!-- Button trigger modal -->
+            <p class="mr-3 text-white">Onde Estamos</p>
+            <div class="btn btn-modal mr-3 mb-3" data-toggle="modal" data-target="#exampleModal">
+               <img class="location" src="images/placeholder.svg" alt="">
+               <br>
+               <a class="text-white mt-2">Ver Lojas</a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+               aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Onde Estamos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                     
+                     </div>
+                     <div class="modal-footer">
+
+                        <button type="button" class="btn btn-sm btn-outline-dark" data-dismiss="modal">Fechar</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+                  <div class="col footer-nav">
+                  <p class="text-center text-white mt-1">Redes Sociais</p>
+                  <a href=><i class="cfb fb fab fa-facebook"></i></a>
+                  <a href=><i class="cig ig fab fa-instagram"></i></a>
+                  <a href=><i class="cwp wp fab fa-whatsapp"></i></a>
+         </div>
+      </div>
+   </footer>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+   <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
